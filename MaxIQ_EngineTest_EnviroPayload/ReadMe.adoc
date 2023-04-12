@@ -1,0 +1,38 @@
+:Author: dlee_mtsd
+:Email: {cody@maxiq.space, daniel@maxiq.space}
+:Date: 20/10/2022
+:Revision: version# 1.0
+:License: MaxIQ Space
+
+= Project: {BluShift Engine Vibrational Payload}
+
+The following script is for interfacing the ESP-32 Extended Core, the PMSA003I Particulate Matter, the CCS811 CO2
+and eVOC, and the BME280 weather sensor. This script in particular is for an environmental monitoring kit during
+a ground based engine test.
+
+== Step 1: Installation
+See google doc for Vibrational Payload for details.
+https://docs.google.com/document/d/1DLFEkkcffEGj8MwCWIDrVbVXHsPLF9i2jUQk0499hTk/edit#heading=h.75h7odrcx2kn
+
+== Step 3: Load the code
+
+Upload the code contained in this sketch on to your board
+
+=== Folder structure
+
+....
+ sketch123                => Arduino sketch folder
+  ├── sketch123.ino       => main Arduino file
+  └── ReadMe.adoc         => this file
+....
+
+=== License
+This project is released under a IP License under MaxIQ Space.
+
+=== Contributing
+To contribute to this project please contact dlee_mtsd https://id.arduino.cc/dlee_mtsd
+
+=== Help
+This document is written in the _AsciiDoc_ format, a markup language to describe documents.
+If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
+or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]

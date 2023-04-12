@@ -1,0 +1,44 @@
+:Author: dlee_mtsd
+:Email: {cody@maxiq.space, daniel@maxiq.space}
+:Date: 20/10/2022
+:Revision: version# 1.0
+:License: MaxIQ Space
+
+= Project: {BluShift Engine Vibrational Test}
+
+The following script is for interfacing the ESP-32 Extended Core, the LIS2DH12 accelerometer, the Goertek SPL06-001 barometer,
+and the Sensirion SHT30-DIS temperature and humidty sensors.
+
+This script was developed on behalf of MaxIQ Space by Edward Tang from Montgomery High School, Skillman NJ, USA.
+Any questions or concerns about the script should be directed to cody@maxiq.space with a cc to daniel@maxiq.space
+All troubleshooting should be completed at the local level first, if the issue is not localized and is believed to 
+be due to a global issue with the script itself, please reach out and let us know.
+
+All rights reserved.
+
+== Step 1: Installation
+See google doc for Vibrational Payload for details.
+https://docs.google.com/document/d/1DLFEkkcffEGj8MwCWIDrVbVXHsPLF9i2jUQk0499hTk/edit#heading=h.75h7odrcx2kn
+
+== Step 2: Load the code
+
+Upload the code contained in this sketch on to your board
+
+=== Folder structure
+
+....
+ sketch123                => Arduino sketch folder
+  ├── sketch123.ino       => main Arduino file
+  └── ReadMe.adoc         => this file
+....
+
+=== License
+This project is released under a IP License under MaxIQ Space.
+
+=== Contributing
+To contribute to this project please contact dlee_mtsd https://id.arduino.cc/dlee_mtsd
+
+=== Help
+This document is written in the _AsciiDoc_ format, a markup language to describe documents.
+If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
+or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
